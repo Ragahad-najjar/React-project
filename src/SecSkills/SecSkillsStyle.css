@@ -1,0 +1,22 @@
+.SecSkills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.SecSkills .Circle {
+    width: 95px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(84, 194, 221);
+    text-align: center;
+    color :rgb(0 , 40, 90);
+    font-size: 20px;
+    font-weight: 500;
+    border:1px solid  rgb(47 ,66 , 126);
+}

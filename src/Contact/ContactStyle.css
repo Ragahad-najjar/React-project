@@ -1,0 +1,55 @@
+.Contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 70px;
+}
+.Contact .Email , 
+.Contact .Telephone {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+.Contact .SocialMedia {
+    width: 14%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.Text{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 3px;
+}
+.Contact .Email .adress ,
+.Contact .Telephone .Phon  {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(138, 136, 136)
+}
+.Contact .Email img {
+    width: 20px;
+}
+.Contact .SocialMedia .icon ,
+.Contact .SocialMedia svg{
+    width: 30px;
+    height: 30px;
+    color: rgb(53, 74, 137);
+}
+
+@media (max-width:992px) {
+    .Contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }.Contact .Email .adress {
+        font-size: 12px;
+    }
+}

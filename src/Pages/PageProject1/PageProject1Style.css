@@ -1,0 +1,46 @@
+.PageProject1 h1{
+    margin-top: 90px;
+}
+.SectorProject {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 30px 70px;
+}
+.SectorProject .ImgProject {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.Project1 {
+    max-width: 350px;
+    height: 215px;
+    position: relative;
+    display: inline-block;
+}
+.SectorProject .Project1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray ;
+}
+.PageProject1 .github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 ;
+}
+
+.PageProject1 a {
+    font-size: 26px;
+    font-weight: 700;
+    color: #915855;
+}
+@media (max-width :992px) {
+    .SectorProject {
+        height: 100vh;
+        padding: 0;
+    }
+}

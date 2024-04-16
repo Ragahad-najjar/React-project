@@ -1,0 +1,11 @@
+.TextDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.TextDescription p {
+    font-size: 26px;
+    font-weight: 700;
+}

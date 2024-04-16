@@ -1,0 +1,55 @@
+.AboutMe {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 70px;
+}
+.AboutMe .PersonalImg {
+    max-width: 300PX;
+}
+.AboutMe .PersonalImg img {
+    width: 100%;
+    border-radius: 10px;
+}
+.Title {
+    font-family: Yellowtail;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-decoration: underline solid rgb(194 , 60 , 119);
+    text-align: center;
+    margin-top: 30px;
+}
+.AboutMe .TextAboutMe {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+.AboutMe .TextAboutMe h2 ,.AboutMe .TextAboutMe h3   {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.AboutMe .TextAboutMe span {
+    font-size:24px ;
+    font-weight: 600;
+    color:  rgb(248,95, 160);
+} 
+.AboutMe .TextAboutMe p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 0;
+    color: rgb(73, 81, 190);
+}
+@media (max-width:992px) {
+    .AboutMe {
+        display: flex;
+        gap: 30px;
+        padding: 0;
+    }
+    
+}

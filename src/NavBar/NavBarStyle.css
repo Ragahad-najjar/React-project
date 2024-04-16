@@ -1,0 +1,143 @@
+.navbar {
+  width: 100vw;
+  height: 85px;
+  display: flex;
+  padding-right: 10.248vw;
+  padding-left: 6.248vw;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 5px 5px #55555580;
+  background-color: #f7f9fc;
+  z-index: 3;
+}
+.navbar .Logo {
+  width: 130px;
+}
+.navElements  {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .navbar h1 {
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .navElements .listMenu {
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+  } 
+  .navElements ul {
+    display: flex;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 17px;
+    gap: 35px;
+  }
+  .navElements ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.033px;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+    color: rgb(53 ,74,137);
+  }
+  .navElements ul a:hover {
+    color: rgb(248,95, 160);
+    border-bottom: 2px solid rgb(194 , 60 , 119);
+  } 
+  .IconMode {
+    display: flex;
+    }
+  .Menu {
+    display: none;
+  } 
+  .close {
+    display:none ;
+  }
+  .BtnMode {
+    display: none;
+  }
+  .Btn{
+    display: block;
+  }
+  @media (max-width: 992px) {
+    .navbar {
+      padding: 40px 20px;
+    }
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+    .Menu {
+      display: block;
+    }
+    .navElements {
+      position: absolute;
+      right: 0;
+      top: 0px;
+      overflow: hidden;
+    }
+    .navElements .listMenu {
+      display: flex;
+      flex-grow: 0;
+      justify-content: center;
+      border-bottom: 2px solid #937DC2;
+      position: absolute;
+      top: 10%;
+      width: 100%;
+      padding-bottom: 50px
+
+  } 
+    .navElements.active {
+      width: 300px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      z-index: 3;
+      justify-content: space-evenly;
+      flex-direction: column;
+      background-color: #f7f9fc;
+      position: fixed;
+
+    }
+    .navElements ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .navElements ul li {
+      margin-top: 22px;
+    }
+    .navElements ul li  {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    }
+    .navElements .close {
+      display: block;
+        position: absolute;
+        top: 5%;
+        left: 20px;
+    }
+    .BtnMode {
+      display: block;
+    }
+    .Btn {
+      display: none;
+    }
+    .IconMode {
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      padding: 15px 20px;
+      position: absolute;
+      bottom: 40%;
+      }
+  }
